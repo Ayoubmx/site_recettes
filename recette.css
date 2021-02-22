@@ -159,14 +159,15 @@ table.preparation tr {
         margin: 60px 10% 80px 10%;
         padding: 0px 30px 0px 30px;
         min-width: 350px;
+
     }
+
     table.info {
         height: 80px;              
     }
     
     table.info td {
         font-size: 14px;
-
     }
     
     table.info th {
@@ -183,5 +184,13 @@ table.preparation tr {
     
     div.colonne2 {
         float: right;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    div.contenu {
+        margin-left: auto;
+        margin-right: auto;
+        width: 645px;
     }
 }
